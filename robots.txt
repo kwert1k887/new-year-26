@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+
+Sitemap: https://ng26.ru/sitemap.xml
+
+# Яндекс
+User-agent: Yandex
+Allow: /
+Clean-param: utm_source&utm_medium&utm_campaign
+
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Боты для изображений
+User-agent: Googlebot-Image
+Allow: /

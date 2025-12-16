@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <!-- Мета-теги и SEO оптимизация -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Основные мета-теги -->
+    <title>Новый Год 2026 в России | Обратный отсчет до праздника</title>
+    <meta name="description" content="Точный обратный отсчет до Нового Года 2026 в России. Узнайте сколько дней, часов, минут и секунд осталось. Новогодние факты и традиции России.">
+    <meta name="keywords" content="новый год 2026, обратный отсчет, сколько дней до нового года, новый год в россии, 2026 год, отсчет времени">
+    <meta name="author" content="Kwert887">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Favicon и PWA мета-теги -->
+    <link rel="icon" href="favicon.ico">
+    
+    <!-- Open Graph для соцсетей -->
+    <meta property="og:title" content="Новый Год 2026 в России | Обратный отсчет">
+    <meta property="og:description" content="Узнайте сколько времени осталось до Нового Года 2026. Точный счетчик дней, часов, минут и секунд до праздника!">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ng26.ru/og-image.png">
+    <meta property="og:url" content="https://ng26.ru">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:creator" content="@kwert887">
+    
+    <!-- CDN зависимости -->
+     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3.0.3/tsparticles.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    
+    <!-- Локальные стили -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Предзагрузка критичных ресурсов -->
+    <link rel="preconnect" href="https://design4dj.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Канвасы для визуальных эффектов -->
+    <div id="tsparticles" aria-hidden="true"></div>
+    <div id="custom-snow" aria-hidden="true"></div>
+    <canvas id="fireworks-canvas" aria-hidden="true"></canvas>
+    <div class="forest-bg aria-hidden="true"></div>
+    
+    <!-- Основной контент -->
+    <div class="content-wrapper">
+        <main class="text-center px-4" role="main">
+            <!-- Структурированные данные для SEO -->
+            <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebApplication",
+                "name": "Обратный отсчет до Нового Года 2026 в России",
+                "description": "Точный таймер обратного отсчета до Нового Года 2026 с новогодними фактами и традициями России",
+                "applicationCategory": "EntertainmentApplication",
+                "operatingSystem": "Any",
+                "author": {
+                    "@type": "Person",
+                    "name": "Kwert887",
+                    "url": "https://github.com/kwert887"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "0",
+                    "priceCurrency": "RUB"
+                },
+                "datePublished": "2025-12-16",
+                "dateModified": "2025-12-16"
+            }
+            </script>
+            
+            <!-- Заголовок и счетчик -->
+             <h2 class="uppercase tracking-widest">
+                До нового года осталось
+            </h2>
+            <h1 class="text-6xl md:text-7xl text-gold mt-4" aria-label="Новый Год 2026">
+                Новый Год 2026
+            </h1>
+            
+            <!-- Счетчик времени -->
+            <div class="countdown" role="timer" aria-live="polite" aria-label="Обратный отсчет до Нового Года">
+                <!-- Дни -->
+                <div class="time-box">
+                    <div class="number" id="days">00</div>
+                    <div class="label">Дней</div>
+                </div>
+                <!-- Часы -->
+                <div class="time-box">
+                    <div class="number" id="hours">00</div>
+                    <div class="label">Часов</div>
+                </div>
+                <!-- Минуты -->
+                <div class="time-box">
+                    <div class="number" id="minutes">00</div>
+                    <div class="label">Минут</div>
+                </div>
+                <!-- Секунды -->
+                <div class="time-box">
+                    <div class="number" id="seconds">00</div>
+                    <div class="label">Секунд</div>
+                </div>
+            </div>
+            
+            <!-- Основная кнопка -->
+            <div class="relative mt-2">
+                <button class="cta-button" aria-label="Узнать новогодние факты">
+                    УЗНАТЬ БОЛЬШЕ
+                </button>
+            </div>
+            
+            <!-- Информация об авторе -->
+            <div class="mt-10 text-sm opacity-70 hover:opacity-100 transition-opacity duration-300">
+                <p>Проект создан с ❤️ к Новому Году</p>
+                <p class="mt-1"><a href="https://github.com/kwert1k887" class="hover:text-gold transition-colors" aria-label="GitHub автора">kwert887</a> • 16.12.2025</p>
+            </div>
+        </main>
+    </div>
+    
+    <!-- Модальное окно с фактами -->
+    <div class="modal" id="surpriseModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <button class="close" aria-label="Закрыть окно">&times;</button>
+            <div class="fact-header">
+                <h3 id="modalTitle">НОВОГОДНИЙ ФАКТ</h3>
+            </div>
+            <div class="fact-content">
+                <p id="surpriseText">Загрузка информации...</p>
+            </div>
+            <div class="fact-footer">
+                Нажмите на кнопку снова для нового факта
+            </div>
+        </div>
+    </div>
+    
+    <!-- Запасной контент при отключенном JS -->
+    <noscript>
+        <div class="noscript-warning" role="alert">
+            <h2>Обратный отсчет до Нового Года 2026</h2>
+            <p>Для работы интерактивных элементов требуется включить JavaScript.</p>
+            <p>До Нового Года 2026 осталось менее года!</p>
+        </div>
+    </noscript>
+    
+    <!-- Подключение скриптов -->
+    <script type="module" src="js/index.js" defer></script>
+</body>
+</html>
